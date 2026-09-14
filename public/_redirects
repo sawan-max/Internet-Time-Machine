@@ -1,0 +1,4 @@
+# Netlify SPA fallback — serve index.html for all routes
+/api/cdx/*    https://web.archive.org/cdx/search/cdx/:splat    200
+/api/wayback/*    https://archive.org/wayback/available/:splat    200
+/*    /index.html    200
